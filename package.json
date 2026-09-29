@@ -1,0 +1,16 @@
+{
+  "name": "absen-sekolah",
+  "version": "1.0.0",
+  "description": "Web absensi sekolah dengan notifikasi Gmail",
+  "main": "api/absen.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "start": "node api/absen.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.7"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
